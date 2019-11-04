@@ -28,7 +28,7 @@ class ProduksiController extends Controller
 
     foreach ($produksis as $produksi) {
       if($produksi->bahanBaku->nama_bahan == 'Jagung'){
-                                                                                                                                                                                                                                                                                                                                                          $jumla'`h`'_jagung -= $produksi->jumlah_bahan;
+    $jumlah_jagung -= $produksi->jumlah_bahan;
       } else {
         $jumlah_padi -= $produksi->jumlah_bahan;
       }

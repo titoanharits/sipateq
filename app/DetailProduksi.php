@@ -51,4 +51,3 @@ class DetailProduksi extends Model
         return $this->belongsTo('App\JenisBahan', 'id_bahan');
     }
 }
-html
